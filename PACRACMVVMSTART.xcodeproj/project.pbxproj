@@ -7,18 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68137E0E2085EBD40037358B /* PACNetAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E0D2085EBD40037358B /* PACNetAPIManager.m */; };
+		68137E142085F7470037358B /* PACNetAPIClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E132085F7470037358B /* PACNetAPIClientManager.m */; };
+		68137E192086003B0037358B /* PACConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E182086003B0037358B /* PACConstants.m */; };
+		68137E1C2086D8880037358B /* PACCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E1B2086D8880037358B /* PACCacheManager.m */; };
+		68137E9D208724470037358B /* PACBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E9C208724470037358B /* PACBaseViewController.m */; };
+		68137EA1208725580037358B /* CustomBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137EA0208725580037358B /* CustomBarItem.m */; };
+		68137EA4208725A00037358B /* UINavigationItem+CustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137EA32087259F0037358B /* UINavigationItem+CustomItem.m */; };
+		68137ED220873E690037358B /* PACVMServicesImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137ED120873E690037358B /* PACVMServicesImpl.m */; };
+		68137ED520873EFD0037358B /* PACNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137ED420873EFD0037358B /* PACNavigationControllerStack.m */; };
+		68137EDA20873FA80037358B /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137ED720873FA70037358B /* RTRootNavigationController.m */; };
+		68137EDB20873FA80037358B /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137ED820873FA80037358B /* UIViewController+RTRootNavigationController.m */; };
+		68137EDE20873FFD0037358B /* PACRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137EDD20873FFD0037358B /* PACRouter.m */; };
 		68687CB3208470450050434E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68687CB2208470450050434E /* AppDelegate.m */; };
 		68687CB6208470460050434E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68687CB5208470460050434E /* ViewController.m */; };
 		68687CB9208470460050434E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68687CB7208470460050434E /* Main.storyboard */; };
 		68687CBB208470460050434E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68687CBA208470460050434E /* Assets.xcassets */; };
 		68687CBE208470460050434E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68687CBC208470460050434E /* LaunchScreen.storyboard */; };
 		68687CC1208470460050434E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68687CC0208470460050434E /* main.m */; };
+		68CE8FA320848FA30053A6E8 /* PACBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CE8FA220848FA30053A6E8 /* PACBaseViewModel.m */; };
 		E17CA5BFAEA7E66A9D39C7E0 /* libPods-PACRACMVVMSTART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BA44BBB611B3801EFD8BA5 /* libPods-PACRACMVVMSTART.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		21BA44BBB611B3801EFD8BA5 /* libPods-PACRACMVVMSTART.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PACRACMVVMSTART.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB6EAE4874C0614B6827A1F /* Pods-PACRACMVVMSTART.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PACRACMVVMSTART.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PACRACMVVMSTART/Pods-PACRACMVVMSTART.debug.xcconfig"; sourceTree = "<group>"; };
+		68137E0C2085EBD40037358B /* PACNetAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACNetAPIManager.h; sourceTree = "<group>"; };
+		68137E0D2085EBD40037358B /* PACNetAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACNetAPIManager.m; sourceTree = "<group>"; };
+		68137E102085EE360037358B /* PACVMServicesProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACVMServicesProtocol.h; sourceTree = "<group>"; };
+		68137E112085F62D0037358B /* PACAPIList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACAPIList.h; sourceTree = "<group>"; };
+		68137E122085F7470037358B /* PACNetAPIClientManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACNetAPIClientManager.h; sourceTree = "<group>"; };
+		68137E132085F7470037358B /* PACNetAPIClientManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACNetAPIClientManager.m; sourceTree = "<group>"; };
+		68137E162085FBD60037358B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		68137E172086003B0037358B /* PACConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACConstants.h; sourceTree = "<group>"; };
+		68137E182086003B0037358B /* PACConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACConstants.m; sourceTree = "<group>"; };
+		68137E1A2086D8880037358B /* PACCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACCacheManager.h; sourceTree = "<group>"; };
+		68137E1B2086D8880037358B /* PACCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACCacheManager.m; sourceTree = "<group>"; };
+		68137E1E2086D8BD0037358B /* PACCacheProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACCacheProtocol.h; sourceTree = "<group>"; };
+		68137E222086DB6A0037358B /* PACSynthesizeSinglet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACSynthesizeSinglet.h; sourceTree = "<group>"; };
+		68137E9B208724470037358B /* PACBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACBaseViewController.h; sourceTree = "<group>"; };
+		68137E9C208724470037358B /* PACBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACBaseViewController.m; sourceTree = "<group>"; };
+		68137E9F208725580037358B /* CustomBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBarItem.h; sourceTree = "<group>"; };
+		68137EA0208725580037358B /* CustomBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBarItem.m; sourceTree = "<group>"; };
+		68137EA22087259F0037358B /* UINavigationItem+CustomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+CustomItem.h"; sourceTree = "<group>"; };
+		68137EA32087259F0037358B /* UINavigationItem+CustomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+CustomItem.m"; sourceTree = "<group>"; };
+		68137EA5208726FA0037358B /* PACNavGationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACNavGationProtocol.h; sourceTree = "<group>"; };
+		68137ED020873E690037358B /* PACVMServicesImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACVMServicesImpl.h; sourceTree = "<group>"; };
+		68137ED120873E690037358B /* PACVMServicesImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACVMServicesImpl.m; sourceTree = "<group>"; };
+		68137ED320873EFD0037358B /* PACNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACNavigationControllerStack.h; sourceTree = "<group>"; };
+		68137ED420873EFD0037358B /* PACNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACNavigationControllerStack.m; sourceTree = "<group>"; };
+		68137ED620873FA70037358B /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		68137ED720873FA70037358B /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
+		68137ED820873FA80037358B /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		68137ED920873FA80037358B /* RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootNavigationController.h; sourceTree = "<group>"; };
+		68137EDC20873FFD0037358B /* PACRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACRouter.h; sourceTree = "<group>"; };
+		68137EDD20873FFD0037358B /* PACRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACRouter.m; sourceTree = "<group>"; };
 		68687CAE208470450050434E /* PACRACMVVMSTART.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PACRACMVVMSTART.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68687CB1208470450050434E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68687CB2208470450050434E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +72,8 @@
 		68687CBD208470460050434E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68687CBF208470460050434E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68687CC0208470460050434E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68CE8FA120848FA30053A6E8 /* PACBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACBaseViewModel.h; sourceTree = "<group>"; };
+		68CE8FA220848FA30053A6E8 /* PACBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACBaseViewModel.m; sourceTree = "<group>"; };
 		EBB1462B6C0E17DFB362543E /* Pods-PACRACMVVMSTART.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PACRACMVVMSTART.release.xcconfig"; path = "Pods/Target Support Files/Pods-PACRACMVVMSTART/Pods-PACRACMVVMSTART.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +97,284 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		68137E092085EB830037358B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				68137E102085EE360037358B /* PACVMServicesProtocol.h */,
+				68137E1E2086D8BD0037358B /* PACCacheProtocol.h */,
+				68137EA5208726FA0037358B /* PACNavGationProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		68137E0A2085EBA30037358B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				68137E0B2085EBAB0037358B /* NetAPI */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		68137E0B2085EBAB0037358B /* NetAPI */ = {
+			isa = PBXGroup;
+			children = (
+				68137E0C2085EBD40037358B /* PACNetAPIManager.h */,
+				68137E0D2085EBD40037358B /* PACNetAPIManager.m */,
+				68137E112085F62D0037358B /* PACAPIList.h */,
+				68137E122085F7470037358B /* PACNetAPIClientManager.h */,
+				68137E132085F7470037358B /* PACNetAPIClientManager.m */,
+				68137E1A2086D8880037358B /* PACCacheManager.h */,
+				68137E1B2086D8880037358B /* PACCacheManager.m */,
+			);
+			path = NetAPI;
+			sourceTree = "<group>";
+		};
+		68137E152085FBBF0037358B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				68137E162085FBD60037358B /* PrefixHeader.pch */,
+				68137E172086003B0037358B /* PACConstants.h */,
+				68137E182086003B0037358B /* PACConstants.m */,
+				68137E222086DB6A0037358B /* PACSynthesizeSinglet.h */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		68137E9E2087254D0037358B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				68137E9F208725580037358B /* CustomBarItem.h */,
+				68137EA0208725580037358B /* CustomBarItem.m */,
+				68137EA22087259F0037358B /* UINavigationItem+CustomItem.h */,
+				68137EA32087259F0037358B /* UINavigationItem+CustomItem.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		68137EA620873AAE0037358B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				68137EBB20873B760037358B /* Fivth */,
+				68137EC520873B760037358B /* Fourth */,
+				68137ECA20873B760037358B /* Home */,
+				68137EC020873B760037358B /* Second */,
+				68137EB620873B760037358B /* Third */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		68137EB620873B760037358B /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				68137EB720873B760037358B /* VM */,
+				68137EB820873B760037358B /* M */,
+				68137EB920873B760037358B /* C */,
+				68137EBA20873B760037358B /* V */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		68137EB720873B760037358B /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		68137EB820873B760037358B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		68137EB920873B760037358B /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		68137EBA20873B760037358B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		68137EBB20873B760037358B /* Fivth */ = {
+			isa = PBXGroup;
+			children = (
+				68137EBC20873B760037358B /* VM */,
+				68137EBD20873B760037358B /* M */,
+				68137EBE20873B760037358B /* C */,
+				68137EBF20873B760037358B /* V */,
+			);
+			path = Fivth;
+			sourceTree = "<group>";
+		};
+		68137EBC20873B760037358B /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		68137EBD20873B760037358B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		68137EBE20873B760037358B /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		68137EBF20873B760037358B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		68137EC020873B760037358B /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				68137EC120873B760037358B /* VM */,
+				68137EC220873B760037358B /* M */,
+				68137EC320873B760037358B /* C */,
+				68137EC420873B760037358B /* V */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		68137EC120873B760037358B /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		68137EC220873B760037358B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		68137EC320873B760037358B /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		68137EC420873B760037358B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		68137EC520873B760037358B /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				68137EC620873B760037358B /* VM */,
+				68137EC720873B760037358B /* M */,
+				68137EC820873B760037358B /* C */,
+				68137EC920873B760037358B /* V */,
+			);
+			path = Fourth;
+			sourceTree = "<group>";
+		};
+		68137EC620873B760037358B /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		68137EC720873B760037358B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		68137EC820873B760037358B /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		68137EC920873B760037358B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		68137ECA20873B760037358B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				68137ECE20873BA00037358B /* M */,
+				68137ECD20873B970037358B /* C */,
+				68137ECC20873B900037358B /* VM */,
+				68137ECB20873B760037358B /* V */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		68137ECB20873B760037358B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		68137ECC20873B900037358B /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		68137ECD20873B970037358B /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		68137ECE20873BA00037358B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		68137ECF20873BE10037358B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				68137ED020873E690037358B /* PACVMServicesImpl.h */,
+				68137ED120873E690037358B /* PACVMServicesImpl.m */,
+				68137ED320873EFD0037358B /* PACNavigationControllerStack.h */,
+				68137ED420873EFD0037358B /* PACNavigationControllerStack.m */,
+				68137ED920873FA80037358B /* RTRootNavigationController.h */,
+				68137ED720873FA70037358B /* RTRootNavigationController.m */,
+				68137ED620873FA70037358B /* UIViewController+RTRootNavigationController.h */,
+				68137ED820873FA80037358B /* UIViewController+RTRootNavigationController.m */,
+				68137EDC20873FFD0037358B /* PACRouter.h */,
+				68137EDD20873FFD0037358B /* PACRouter.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		68687CA5208470450050434E = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +396,13 @@
 		68687CB0208470450050434E /* PACRACMVVMSTART */ = {
 			isa = PBXGroup;
 			children = (
+				68137ECF20873BE10037358B /* Root */,
+				68137EA620873AAE0037358B /* Modules */,
+				68137E9E2087254D0037358B /* Custom */,
+				68137E152085FBBF0037358B /* Others */,
+				68137E0A2085EBA30037358B /* Manager */,
+				68137E092085EB830037358B /* Protocol */,
+				68CE8FA020848F8E0053A6E8 /* BaseClass */,
 				68687CB1208470450050434E /* AppDelegate.h */,
 				68687CB2208470450050434E /* AppDelegate.m */,
 				68687CB4208470450050434E /* ViewController.h */,
@@ -84,6 +414,17 @@
 				68687CC0208470460050434E /* main.m */,
 			);
 			path = PACRACMVVMSTART;
+			sourceTree = "<group>";
+		};
+		68CE8FA020848F8E0053A6E8 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				68CE8FA120848FA30053A6E8 /* PACBaseViewModel.h */,
+				68CE8FA220848FA30053A6E8 /* PACBaseViewModel.m */,
+				68137E9B208724470037358B /* PACBaseViewController.h */,
+				68137E9C208724470037358B /* PACBaseViewController.m */,
+			);
+			path = BaseClass;
 			sourceTree = "<group>";
 		};
 		7E0F9BE5E5039FF0BC2D5DC2 /* Pods */ = {
@@ -188,8 +529,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				68687CB6208470460050434E /* ViewController.m in Sources */,
+				68137E192086003B0037358B /* PACConstants.m in Sources */,
+				68137ED520873EFD0037358B /* PACNavigationControllerStack.m in Sources */,
+				68137EDB20873FA80037358B /* UIViewController+RTRootNavigationController.m in Sources */,
+				68137E0E2085EBD40037358B /* PACNetAPIManager.m in Sources */,
+				68137EA1208725580037358B /* CustomBarItem.m in Sources */,
+				68137E9D208724470037358B /* PACBaseViewController.m in Sources */,
+				68CE8FA320848FA30053A6E8 /* PACBaseViewModel.m in Sources */,
 				68687CC1208470460050434E /* main.m in Sources */,
+				68137E142085F7470037358B /* PACNetAPIClientManager.m in Sources */,
+				68137EDA20873FA80037358B /* RTRootNavigationController.m in Sources */,
+				68137EDE20873FFD0037358B /* PACRouter.m in Sources */,
 				68687CB3208470450050434E /* AppDelegate.m in Sources */,
+				68137E1C2086D8880037358B /* PACCacheManager.m in Sources */,
+				68137EA4208725A00037358B /* UINavigationItem+CustomItem.m in Sources */,
+				68137ED220873E690037358B /* PACVMServicesImpl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +685,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/PACRACMVVMSTART/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = PACRACMVVMSTART/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenliang.intelligence.PACRACMVVMSTART;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,8 +706,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/PACRACMVVMSTART/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = PACRACMVVMSTART/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenliang.intelligence.PACRACMVVMSTART;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

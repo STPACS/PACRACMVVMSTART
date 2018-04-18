@@ -1,4 +1,21 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - PACCommonMacro (0.0.5)
+  - PACTools (0.0.4)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -6,17 +23,32 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - PACCommonMacro (~> 0.0.5)
+  - PACTools (~> 0.0.4)
   - ReactiveCocoa (= 2.5)
+  - YYKit (~> 1.0.9)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - PACCommonMacro
+    - PACTools
     - ReactiveCocoa
+    - YYKit
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  PACCommonMacro: 757f0056f66549f8734012aae8fe649734ecbc4c
+  PACTools: 4381f9a90be2ca067b5bce0d18998d0912a21c1d
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 07da294a7fb749bf1c9f08638c0eac8fd574efeb
+PODFILE CHECKSUM: bbda855d9373d68b2c3b887b77e457b9111ce3e2
 
 COCOAPODS: 1.5.0
