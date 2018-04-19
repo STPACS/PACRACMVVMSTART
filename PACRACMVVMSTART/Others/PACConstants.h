@@ -54,6 +54,7 @@ extern const CGFloat NAV_ITEM_RIGHT_OFFSET;
 extern const CGFloat NAV_ITEM_LEFT_OFFSET;
 extern const CGFloat NAV_ITEM_FONT_SIZE;
 
+extern NSString *const KEY_TITLE;
 
 
 

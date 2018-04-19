@@ -10,6 +10,7 @@
 #import "PACVMServicesImpl.h"
 #import "RTRootNavigationController.h"
 #import "PACRouter.h"
+#import "PACRootViewController.h"
 
 @interface PACNavigationControllerStack ()
 
@@ -120,18 +121,19 @@
          
          UIViewController *viewController = (UIViewController *)[[PACRouter sharedPACRouter] viewControllerForViewModel:tuple.first];
          if (![viewController isKindOfClass:[UINavigationController class]] &&
-             ![viewController isKindOfClass:[MBLRootViewController class]]) {
+             ![viewController isKindOfClass:[PACRootViewController class]]) {
              viewController = [[RTRootNavigationController alloc] initWithRootViewController:viewController];
              [self pushNavigationController:(UINavigationController *)viewController];
          }
          
-         kSharedAppDelegate.window.rootViewController = viewController;
          
+         kSharedAppDelegate.window.rootViewController = viewController;
+
          CATransition *fade = [CATransition animation];
          fade.type = kCATransitionFade;
          fade.duration = 0.25;
          [kSharedAppDelegate.window.layer addAnimation:fade forKey:nil];
-         
+
      }];
 }
 

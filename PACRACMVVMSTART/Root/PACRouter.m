@@ -29,7 +29,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(PACRouter)
 - (NSDictionary *)viewModelViewMappings {
     if(_viewModelViewMappings == nil) {
         _viewModelViewMappings = @{
-                                   @"MBLRootViewModel" : @"MBLRootViewController"
+                                   @"PACRootViewModel" : @"PACRootViewController"
                                    };
     }
     return _viewModelViewMappings;
@@ -37,11 +37,11 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(PACRouter)
 
 - (NSSet *)rootViewControllers {
     if(_rootViewControllers == nil) {
-        _rootViewControllers = [NSSet setWithObjects:@"MBLHomeViewController",
-                                @"MBLNewCommunityViewController",//@"MBLCommunityViewController",
-                                @"MBLPostFundraisingBaseViewController",
-                                @"MBLShopViewController",
-                                @"MBLMineViewController",nil];
+        _rootViewControllers = [NSSet setWithObjects:@"PACHomeViewController",
+                                @"PACSecondViewController",
+                                @"PACThirdViewController",
+                                @"PACFourthViewController",
+                                @"PACFivthViewController",nil];
     }
     return _rootViewControllers;
 }

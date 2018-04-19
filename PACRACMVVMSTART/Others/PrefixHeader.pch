@@ -18,5 +18,11 @@
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import "UINavigationItem+CustomItem.h"
 #import "PACVMServicesProtocol.h"
+#import <MJRefresh.h>
+#import "AppDelegate.h"
+
+
+#define kSharedAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+#define kStrFormat(str,...) [NSString stringWithFormat:str,##__VA_ARGS__]
 
 #endif /* PrefixHeader_pch */

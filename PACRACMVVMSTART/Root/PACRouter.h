@@ -16,6 +16,6 @@ SYNTHESIZE_SINGLETON_FOR_CLASS_HEADER(PACRouter)
 
 @property (nonatomic , strong , readonly) NSSet *rootViewControllers;
 
-- (MBLBaseViewController *)viewControllerForViewModel:(MBLBaseViewModel *)viewModel;
+- (PACBaseViewController *)viewControllerForViewModel:(PACBaseViewModel *)viewModel;
 
 @end

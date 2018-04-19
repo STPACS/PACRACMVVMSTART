@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PACNavigationControllerStack.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic , strong , readonly) PACNavigationControllerStack *navigationControllerStack;
+@property (nonatomic , strong) RACCommand *test;
+- (void)resetRootViewController;
 
 @end
 

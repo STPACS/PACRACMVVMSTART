@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "PACVMServicesImpl.h"
+#import "PACNavigationControllerStack.h"
+#import "PACRootViewModel.h"
 
 @interface AppDelegate ()
+@property (nonatomic , strong , readwrite) PACVMServicesImpl *services;
+@property (nonatomic , strong , readwrite) PACNavigationControllerStack *navigationControllerStack;
 
 @end
 
@@ -17,9 +22,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self resetRootViewController];
+
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
+- (PACBaseViewModel *)createInitViewModel {
+    return [[PACRootViewModel alloc]initWithServices:self.services params:nil];
+}
+
+- (void)resetRootViewController {
+    self.services = [[PACVMServicesImpl alloc] init];
+    self.navigationControllerStack = [[PACNavigationControllerStack alloc] initWithServices:self.services];
+    
+    [self.services resetRootViewModel:[self createInitViewModel]];
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

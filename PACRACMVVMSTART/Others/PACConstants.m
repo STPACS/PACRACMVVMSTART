@@ -34,4 +34,7 @@ const CGFloat NAV_ITEM_RIGHT_OFFSET         = -5;
 const CGFloat NAV_ITEM_LEFT_OFFSET          = 5;
 const CGFloat NAV_ITEM_FONT_SIZE            = 15;
 
+
+NSString *const KEY_TITLE                   = @"title";
+
 @end
