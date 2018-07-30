@@ -17,7 +17,6 @@
 #import "RDVTabBarItem.h"
 
 @interface PACRootViewController ()
-@property (nonatomic , strong , readwrite) PACRDVTabBarController *tabBarController;
 @property (nonatomic , strong) PACRootViewModel *viewModel;
 @property (nonatomic , strong) RTRootNavigationController *communityNav;
 @end
@@ -29,7 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tabBarController = [[PACRDVTabBarController alloc] init];
+    self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.view.frame = self.view.frame;
     
     [self addChildViewController:self.tabBarController];
@@ -48,11 +47,6 @@
         [[RTRootNavigationController alloc] initWithRootViewController:vc];
     });
     
-    
-    self.communityNav = ({
-        PACSecondViewController *vc = [[PACSecondViewController alloc] initWithViewModel:self.viewModel.secondViewModel];
-        [[RTRootNavigationController alloc] initWithRootViewController:vc];
-    });
 
     RTRootNavigationController *postFundraisingNav = ({
         PACThirdViewController *vc = [[PACThirdViewController alloc] initWithViewModel:self.viewModel.thirdViewModel];
@@ -63,13 +57,9 @@
         PACFourthViewController *vc = [[PACFourthViewController alloc] initWithViewModel:self.viewModel.fourthViewModel];
         [[RTRootNavigationController alloc] initWithRootViewController:vc];
     });
+
     
-    RTRootNavigationController *mineNav = ({
-        PACFivthViewController *vc = [[PACFivthViewController alloc] initWithViewModel:self.viewModel.fivthViewModel];
-        [[RTRootNavigationController alloc] initWithRootViewController:vc];
-    });
-    
-    [self.tabBarController setViewControllers:@[homeNav, self.communityNav, postFundraisingNav, shopNav, mineNav]];
+    [self.tabBarController setViewControllers:@[homeNav, postFundraisingNav, shopNav]];
     
     [self customizeTabBarForController];
     
@@ -91,22 +81,17 @@
 }
 
 - (void)customizeTabBarForController {
-    UIImage *backgroundImage = [UIImage imageNamed:@"tabBar_background"];
-    NSArray *tabBarItemImages = @[@"sy", @"sq", @"fqzc", @"sc", @"wd"];
-    NSArray *tabBarItemTitles = @[@"首页", @"二", @"三", @"四",  @"五"];
+    NSArray *tabBarItemImages = @[@"sy",  @"fqzc", @"sc"];
+    NSArray *tabBarItemTitles = @[@"首页",  @"排行榜", @"我的"];
     NSArray *items = [[self.tabBarController tabBar] items];
     
     int index = 0;
-    for (RDVTabBarItem *item in items) {
-        
-        item.titlePositionAdjustment = UIOffsetMake(0, 5);
-
-        [item setBackgroundSelectedImage:backgroundImage withUnselectedImage:backgroundImage];
+    for (UITabBarItem *item in items) {
         
         UIImage *selectedImg = [[UIImage imageNamed:kStrFormat(@"%@_a", tabBarItemImages[index])] imageByResizeToSize:CGSizeMake(22, 22) contentMode:UIViewContentModeScaleAspectFill];
         UIImage *unselectedImg = [[UIImage imageNamed:kStrFormat(@"%@", tabBarItemImages[index])] imageByResizeToSize:CGSizeMake(22, 22) contentMode:UIViewContentModeScaleAspectFill];
-        
-        [item setFinishedSelectedImage:selectedImg withFinishedUnselectedImage:unselectedImg];
+        [item setImage:unselectedImg];
+        [item setSelectedImage:selectedImg];
         [item setTitle:tabBarItemTitles[index]];
         index++;
         

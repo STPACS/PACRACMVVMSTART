@@ -29,11 +29,9 @@
     
     self.homeViewModel            = [[PACHomeViewModel alloc] initWithServices:self.services params:@{KEY_TITLE:@"首页"}];
     self.secondViewModel       = [[PACSecondViewModel alloc] initWithServices:self.services params:@{KEY_TITLE:@"二"}];
-    self.thirdViewModel = [[PACThirdViewModel alloc] initWithServices:self.services params:@{KEY_TITLE:@"三"}];
-    self.fourthViewModel            = [[PACFourthViewModel alloc] initWithServices:self.services params:@{KEY_TITLE:@"四"}];
+    self.thirdViewModel = [[PACThirdViewModel alloc] initWithServices:self.services params:@{KEY_TITLE:@"排行榜"}];
+    self.fourthViewModel            = [[PACFourthViewModel alloc] initWithServices:self.services params:@{KEY_TITLE:@"我的"}];
     self.fivthViewModel            = [[PACFivthViewModel alloc] initWithServices:self.services params:@{KEY_TITLE:@"五"}];
-    
-
-    
+        
 }
 @end

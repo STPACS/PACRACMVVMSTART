@@ -22,6 +22,14 @@
 		484643AA208836DC003BB72A /* PACHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484643A9208836DC003BB72A /* PACHomeViewController.m */; };
 		484643AD208836E8003BB72A /* PACSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484643AC208836E8003BB72A /* PACSecondViewController.m */; };
 		484643B0208836F2003BB72A /* PACThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484643AF208836F2003BB72A /* PACThirdViewController.m */; };
+		486B8271210F1A6500EFA73F /* PACChoseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B8270210F1A6500EFA73F /* PACChoseView.m */; };
+		486B8274210F1AD400EFA73F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B8273210F1AD400EFA73F /* UIColor+Hex.m */; };
+		486B827E210F1B8F00EFA73F /* XLChannelControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B8276210F1B8E00EFA73F /* XLChannelControl.m */; };
+		486B827F210F1B8F00EFA73F /* XLChannelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B8277210F1B8F00EFA73F /* XLChannelView.m */; };
+		486B8280210F1B8F00EFA73F /* XLChannelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B8278210F1B8F00EFA73F /* XLChannelItem.m */; };
+		486B8281210F1B8F00EFA73F /* XLChannelHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B827B210F1B8F00EFA73F /* XLChannelHeader.m */; };
+		486B8284210F1BF800EFA73F /* PacIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B8283210F1BF800EFA73F /* PacIndexViewController.m */; };
+		486B8287210F1C6E00EFA73F /* PacSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B8286210F1C6E00EFA73F /* PacSecondViewController.m */; };
 		68137E0E2085EBD40037358B /* PACNetAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E0D2085EBD40037358B /* PACNetAPIManager.m */; };
 		68137E142085F7470037358B /* PACNetAPIClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E132085F7470037358B /* PACNetAPIClientManager.m */; };
 		68137E192086003B0037358B /* PACConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E182086003B0037358B /* PACConstants.m */; };
@@ -76,6 +84,22 @@
 		484643AC208836E8003BB72A /* PACSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACSecondViewController.m; sourceTree = "<group>"; };
 		484643AE208836F2003BB72A /* PACThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACThirdViewController.h; sourceTree = "<group>"; };
 		484643AF208836F2003BB72A /* PACThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACThirdViewController.m; sourceTree = "<group>"; };
+		486B826F210F1A6500EFA73F /* PACChoseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACChoseView.h; sourceTree = "<group>"; };
+		486B8270210F1A6500EFA73F /* PACChoseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACChoseView.m; sourceTree = "<group>"; };
+		486B8272210F1AD400EFA73F /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		486B8273210F1AD400EFA73F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		486B8276210F1B8E00EFA73F /* XLChannelControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelControl.m; sourceTree = "<group>"; };
+		486B8277210F1B8F00EFA73F /* XLChannelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelView.m; sourceTree = "<group>"; };
+		486B8278210F1B8F00EFA73F /* XLChannelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelItem.m; sourceTree = "<group>"; };
+		486B8279210F1B8F00EFA73F /* XLChannelHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelHeader.h; sourceTree = "<group>"; };
+		486B827A210F1B8F00EFA73F /* XLChannelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelItem.h; sourceTree = "<group>"; };
+		486B827B210F1B8F00EFA73F /* XLChannelHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelHeader.m; sourceTree = "<group>"; };
+		486B827C210F1B8F00EFA73F /* XLChannelControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelControl.h; sourceTree = "<group>"; };
+		486B827D210F1B8F00EFA73F /* XLChannelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelView.h; sourceTree = "<group>"; };
+		486B8282210F1BF800EFA73F /* PacIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacIndexViewController.h; sourceTree = "<group>"; };
+		486B8283210F1BF800EFA73F /* PacIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacIndexViewController.m; sourceTree = "<group>"; };
+		486B8285210F1C6E00EFA73F /* PacSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacSecondViewController.h; sourceTree = "<group>"; };
+		486B8286210F1C6E00EFA73F /* PacSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacSecondViewController.m; sourceTree = "<group>"; };
 		4EB6EAE4874C0614B6827A1F /* Pods-PACRACMVVMSTART.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PACRACMVVMSTART.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PACRACMVVMSTART/Pods-PACRACMVVMSTART.debug.xcconfig"; sourceTree = "<group>"; };
 		68137E0C2085EBD40037358B /* PACNetAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACNetAPIManager.h; sourceTree = "<group>"; };
 		68137E0D2085EBD40037358B /* PACNetAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACNetAPIManager.m; sourceTree = "<group>"; };
@@ -142,11 +166,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4846438620875D76003BB72A /* Vendor */ = {
+		486B826E210F1A4700EFA73F /* V */ = {
 			isa = PBXGroup;
 			children = (
+				486B8275210F1B7C00EFA73F /* ChannelControl */,
+				486B826F210F1A6500EFA73F /* PACChoseView.h */,
+				486B8270210F1A6500EFA73F /* PACChoseView.m */,
+				486B8272210F1AD400EFA73F /* UIColor+Hex.h */,
+				486B8273210F1AD400EFA73F /* UIColor+Hex.m */,
 			);
-			path = Vendor;
+			path = V;
+			sourceTree = "<group>";
+		};
+		486B8275210F1B7C00EFA73F /* ChannelControl */ = {
+			isa = PBXGroup;
+			children = (
+				486B827C210F1B8F00EFA73F /* XLChannelControl.h */,
+				486B8276210F1B8E00EFA73F /* XLChannelControl.m */,
+				486B8279210F1B8F00EFA73F /* XLChannelHeader.h */,
+				486B827B210F1B8F00EFA73F /* XLChannelHeader.m */,
+				486B827A210F1B8F00EFA73F /* XLChannelItem.h */,
+				486B8278210F1B8F00EFA73F /* XLChannelItem.m */,
+				486B827D210F1B8F00EFA73F /* XLChannelView.h */,
+				486B8277210F1B8F00EFA73F /* XLChannelView.m */,
+			);
+			path = ChannelControl;
 			sourceTree = "<group>";
 		};
 		68137E092085EB830037358B /* Protocol */ = {
@@ -390,19 +434,11 @@
 		68137ECA20873B760037358B /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				68137ECE20873BA00037358B /* M */,
+				486B826E210F1A4700EFA73F /* V */,
 				68137ECD20873B970037358B /* C */,
 				68137ECC20873B900037358B /* VM */,
-				68137ECB20873B760037358B /* V */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		68137ECB20873B760037358B /* V */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = V;
 			sourceTree = "<group>";
 		};
 		68137ECC20873B900037358B /* VM */ = {
@@ -419,15 +455,12 @@
 			children = (
 				484643A8208836DC003BB72A /* PACHomeViewController.h */,
 				484643A9208836DC003BB72A /* PACHomeViewController.m */,
+				486B8282210F1BF800EFA73F /* PacIndexViewController.h */,
+				486B8283210F1BF800EFA73F /* PacIndexViewController.m */,
+				486B8285210F1C6E00EFA73F /* PacSecondViewController.h */,
+				486B8286210F1C6E00EFA73F /* PacSecondViewController.m */,
 			);
 			path = C;
-			sourceTree = "<group>";
-		};
-		68137ECE20873BA00037358B /* M */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = M;
 			sourceTree = "<group>";
 		};
 		68137ECF20873BE10037358B /* Root */ = {
@@ -475,7 +508,6 @@
 			isa = PBXGroup;
 			children = (
 				68137EA620873AAE0037358B /* Modules */,
-				4846438620875D76003BB72A /* Vendor */,
 				68137ECF20873BE10037358B /* Root */,
 				68137E9E2087254D0037358B /* Custom */,
 				68137E152085FBBF0037358B /* Others */,
@@ -630,17 +662,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				486B8284210F1BF800EFA73F /* PacIndexViewController.m in Sources */,
 				68687CB6208470460050434E /* ViewController.m in Sources */,
+				486B827E210F1B8F00EFA73F /* XLChannelControl.m in Sources */,
 				4846439B20883330003BB72A /* PACThirdViewModel.m in Sources */,
 				68137E192086003B0037358B /* PACConstants.m in Sources */,
 				484643A7208836D3003BB72A /* PACFourthViewController.m in Sources */,
+				486B827F210F1B8F00EFA73F /* XLChannelView.m in Sources */,
 				68137ED520873EFD0037358B /* PACNavigationControllerStack.m in Sources */,
+				486B8281210F1B8F00EFA73F /* XLChannelHeader.m in Sources */,
 				48464392208828D0003BB72A /* PACBaseTableViewController.m in Sources */,
 				484643952088330A003BB72A /* PACHomeViewModel.m in Sources */,
 				68137EDB20873FA80037358B /* UIViewController+RTRootNavigationController.m in Sources */,
 				68137E0E2085EBD40037358B /* PACNetAPIManager.m in Sources */,
 				68137EA1208725580037358B /* CustomBarItem.m in Sources */,
+				486B8271210F1A6500EFA73F /* PACChoseView.m in Sources */,
 				484643A4208836C5003BB72A /* PACFivthViewController.m in Sources */,
+				486B8280210F1B8F00EFA73F /* XLChannelItem.m in Sources */,
 				484643AD208836E8003BB72A /* PACSecondViewController.m in Sources */,
 				68137E9D208724470037358B /* PACBaseViewController.m in Sources */,
 				4846439E2088368E003BB72A /* PACFourthViewModel.m in Sources */,
@@ -648,8 +686,10 @@
 				68CE8FA320848FA30053A6E8 /* PACBaseViewModel.m in Sources */,
 				484643B0208836F2003BB72A /* PACThirdViewController.m in Sources */,
 				484643A12088369D003BB72A /* PACFivthViewModel.m in Sources */,
+				486B8274210F1AD400EFA73F /* UIColor+Hex.m in Sources */,
 				68687CC1208470460050434E /* main.m in Sources */,
 				68137E142085F7470037358B /* PACNetAPIClientManager.m in Sources */,
+				486B8287210F1C6E00EFA73F /* PacSecondViewController.m in Sources */,
 				4846438C20882728003BB72A /* PACRootViewModel.m in Sources */,
 				484643AA208836DC003BB72A /* PACHomeViewController.m in Sources */,
 				68137EDA20873FA80037358B /* RTRootNavigationController.m in Sources */,
@@ -813,7 +853,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenliang.intelligence.PACRACMVVMSTART;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -834,7 +874,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenliang.intelligence.PACRACMVVMSTART;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

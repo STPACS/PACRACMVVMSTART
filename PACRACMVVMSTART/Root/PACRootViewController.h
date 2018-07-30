@@ -9,8 +9,8 @@
 #import "PACBaseViewController.h"
 #import "PACRDVTabBarController.h"
 
-@interface PACRootViewController : PACBaseViewController<RDVTabBarControllerDelegate>
+@interface PACRootViewController : PACBaseViewController<UITabBarControllerDelegate>
 
-@property (nonatomic , strong , readonly) PACRDVTabBarController *tabBarController;
+@property (nonatomic , strong ) UITabBarController *tabBarController;
 
 @end
