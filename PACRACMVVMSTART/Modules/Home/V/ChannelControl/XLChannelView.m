@@ -216,13 +216,13 @@ static CGFloat CellHeight = 80;
 {
     XLChannelHeader *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"XLChannelHeader" forIndexPath:indexPath];
     if (indexPath.section == 0) {
-        headerView.title = @"我的科目";
+        headerView.title = @"我的";
         
 
         headerView.subTitle = _editStatus?@"点击可删除，拖动可排序" : @"按住拖动调整排序";
     }else{
-        headerView.title = @"推荐科目";
-        headerView.subTitle = @"点击添加到我的科目";
+        headerView.title = @"推荐";
+        headerView.subTitle = @"点击添加到我的";
     }
     return headerView;
 }

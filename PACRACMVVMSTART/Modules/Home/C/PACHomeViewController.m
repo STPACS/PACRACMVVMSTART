@@ -32,10 +32,11 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:[self rightView]];
     self.navigationItem.titleView = [self middleView];
     // Do any additional setup after loading the view.
-    
-    self.navTitleAry = @[@"推荐", @"平面设计", @"影视" ].mutableCopy;
-    self.unUserTitleAry = @[@"UI设计", @"网页设计", @"影视世纪",@"No. 1", @"No. 2", @"No. 3", @"No. 4"].mutableCopy;
+
+    self.navTitleAry = @[@"推荐", @"十万个为什么", @"医保攻略",@"旅游攻略", @"饮食疗法", @"好医生",@"好医院", @"好公司", @"中国贡献之星", @"中国美食"].mutableCopy;
+    self.unUserTitleAry = @[@"中国最美司机",@"笑话"].mutableCopy;
     [self addOwnViews];
+
 }
 
 //左侧视图
@@ -57,6 +58,7 @@
     return _rightView;
 }
 
+//中间视图
 - (UIView *)middleView {
     if (!_middleView) {
         _middleView = [[UIView alloc]initWithFrame:CGRectMake(60, 0, SCREEN_WIDTH - 120, 44)];
@@ -66,12 +68,9 @@
     return _middleView;
 }
 
-//中间视图
-
-//类别视图
-
 //内容视图
 
+//类别视图
 - (void)setNavTitleAry:(NSMutableArray *)navTitleAry {
     
     _navTitleAry = navTitleAry;
@@ -112,7 +111,6 @@
     }
 }
 
-
 - (void)addChildVCWithIndex:(NSInteger )index {
     __block BOOL ishasVC = NO;
     [self.childViewControllers enumerateObjectsUsingBlock:^(__kindof UIViewController * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -129,13 +127,13 @@
     PacSecondViewController  *courseVC = [[PacSecondViewController alloc] init];
     courseVC.view.frame = CGRectMake(self.view.frame.size.width * index, 0, self.view.frame.size.width, _backScrollView.frame.size.height);
     [_backScrollView addSubview:courseVC.view];
+    courseVC.view.backgroundColor = [UIColor purpleColor];
     courseVC.title = titleName;
     [self addChildViewController:courseVC];
 }
 
 #pragma mark -
 #pragma mark - button action
-
 
 // 导航分类选择控制器
 - (void)pushToChooseCourseCategoryVC {
@@ -173,14 +171,6 @@
     [self setupHomeNav];
 
     [self.view addSubview:self.navCoureCategoryView];
-    // 首页
-    PacIndexViewController *courseVC= [[PacIndexViewController alloc] init];
-    courseVC.view.frame = CGRectMake(self.view.frame.size.width  * 0, 0, self.view.frame.size.width, _backScrollView.frame.size.width);
-    courseVC.title = @"推荐";
-    [_backScrollView addSubview:courseVC.view];
-    //[self.unUserTitleAry addObject:courseVC];
-    [self addChildViewController:courseVC];
-    
 }
 
 //导航设置

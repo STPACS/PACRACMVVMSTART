@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA4C97637E55855EB2376EB93B18240A"
-               BlueprintName = "ReactiveCocoa"
+               BlueprintIdentifier = "D3B4DFD89F62D2FFAE4ED490E470F3C3"
+               BlueprintName = "ZXSegmentController"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libReactiveCocoa.a">
+               BuildableName = "libZXSegmentController.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

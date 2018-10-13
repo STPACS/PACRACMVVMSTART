@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "210DF308D76645872F1EB704ED90FA20"
+               BlueprintIdentifier = "C0197AED6111D6A12A8923A87D36699A"
                BlueprintName = "Pods-PACRACMVVMSTART"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-PACRACMVVMSTART.a">

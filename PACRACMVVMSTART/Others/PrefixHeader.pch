@@ -25,4 +25,15 @@
 #define kSharedAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
 #define kStrFormat(str,...) [NSString stringWithFormat:str,##__VA_ARGS__]
 
+//打印日志
+#ifdef DEBUG
+#define MYLog(fmt, ...)  NSLog((@"[%s Line %d] \n" fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define MYLog(fmt, ...)
+#endif
+
+//判断设备是否为iPhoneX
+#define kDeviceIsiPhoneX                            ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125,2436),[[UIScreen mainScreen] currentMode].size) : NO)
+
+
 #endif /* PrefixHeader_pch */

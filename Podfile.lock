@@ -30,6 +30,8 @@ PODS:
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
+  - ZXSegmentController (0.1.5):
+    - Masonry (~> 1.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -41,6 +43,7 @@ DEPENDENCIES:
   - RDVTabBarController (~> 1.1.9)
   - ReactiveCocoa (= 2.5)
   - YYKit (~> 1.0.9)
+  - ZXSegmentController (~> 0.1.5)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -53,6 +56,7 @@ SPEC REPOS:
     - RDVTabBarController
     - ReactiveCocoa
     - YYKit
+    - ZXSegmentController
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -64,7 +68,8 @@ SPEC CHECKSUMS:
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZXSegmentController: d94f138ab0191da1e2e4268e9b961e082a142549
 
-PODFILE CHECKSUM: 839838570878dbe6d86adde68a8c259a0e40f5d5
+PODFILE CHECKSUM: 2679bb67e6f86b8bf1810880318dd52c1edc3af7
 
 COCOAPODS: 1.5.0
