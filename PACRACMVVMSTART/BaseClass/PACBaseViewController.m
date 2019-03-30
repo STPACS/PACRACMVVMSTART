@@ -41,6 +41,15 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.extendedLayoutIncludesOpaqueBars = YES;
     
+    [self.navigationController.navigationBar zh_themeUpdateCallback:^(UINavigationBar* target) {
+        NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
+        textAttrs[NSFontAttributeName] = [UIFont fontWithName:@"GillSans-SemiBoldItalic" size:17];
+        textAttrs[NSForegroundColorAttributeName] = ThemePickerColorKey(@"color04").color;
+        [target setTitleTextAttributes:textAttrs];
+    }];
+    
+    [self.navigationController.navigationBar zh_setBackgroundColorPicker:ThemePickerColorKey(@"color01") forBarMetrics:UIBarMetricsDefault];
+    
     // Do any additional setup after loading the view.
 }
 

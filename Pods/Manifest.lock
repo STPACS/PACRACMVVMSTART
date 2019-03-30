@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - DZNEmptyDataSet (1.8.1)
   - Masonry (1.1.0)
-  - MJRefresh (3.1.15.3)
+  - MJRefresh (3.1.15.7)
   - PACCommonMacro (0.0.5)
   - PACTools (0.0.4)
   - RDVTabBarController (1.1.9)
@@ -46,7 +46,7 @@ DEPENDENCIES:
   - ZXSegmentController (~> 0.1.5)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
     - DZNEmptyDataSet
     - Masonry
@@ -62,7 +62,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   PACCommonMacro: 757f0056f66549f8734012aae8fe649734ecbc4c
   PACTools: 4381f9a90be2ca067b5bce0d18998d0912a21c1d
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
@@ -72,4 +72,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 2679bb67e6f86b8bf1810880318dd52c1edc3af7
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.6.1

@@ -14,7 +14,6 @@
 #import "PACThirdViewController.h"
 #import "PACFourthViewController.h"
 #import "PACFivthViewController.h"
-#import "RDVTabBarItem.h"
 
 @interface PACRootViewController ()
 @property (nonatomic , strong) PACRootViewModel *viewModel;
@@ -24,6 +23,8 @@
 @implementation PACRootViewController
 @dynamic viewModel;
 
+#define kClassVC    @"baseTabBarVCClassString"
+#define kTitle      @"title"
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,6 +34,22 @@
     
     [self addChildViewController:self.tabBarController];
     [self.view addSubview:self.tabBarController.view];
+    
+    // 配置app主题
+    [zhThemeOperator themeConfiguration];
+    
+    // 配置状态栏
+    [[UIApplication sharedApplication] zh_themeUpdateCallback:^(UIApplication* target) {
+        NSDictionary *d = @{AppThemeLight : @(UIStatusBarStyleDefault),
+                            AppThemeNight : @(UIStatusBarStyleLightContent),
+                            AppThemeStyle1 : @(UIStatusBarStyleLightContent),
+                            AppThemeStyle2 : @(UIStatusBarStyleLightContent),
+                            AppThemeStyle3 : @(UIStatusBarStyleLightContent)};
+        
+        
+        UIStatusBarStyle status = [[d objectForKey:ThemeManager.style] integerValue];
+        [target setStatusBarStyle:status];
+    }];
     
     [self setupViewControllers];
     
@@ -71,28 +88,45 @@
       fromProtocol:@protocol(RDVTabBarControllerDelegate)]
      subscribeNext:^(RACTuple *tuple) {
          //do some thing
-         
+         [zhThemeOperator changeThemeDayOrNight];
+
          [kSharedAppDelegate.navigationControllerStack popNavigationController];
          [kSharedAppDelegate.navigationControllerStack pushNavigationController:tuple.second];
          
      }];
     
     self.tabBarController.delegate = self;
+ 
+    
 }
 
 - (void)customizeTabBarForController {
-    NSArray *tabBarItemImages = @[@"sy",  @"fqzc", @"sc"];
+    
+    
+    NSArray<zhThemeImagePicker *> *nolArr = @[
+                                              ThemePickerImageKey(@"image01").renderingMode(UIImageRenderingModeAlwaysOriginal),
+                                              ThemePickerImageKey(@"image02").renderingMode(UIImageRenderingModeAlwaysOriginal),
+                                              ThemePickerImageKey(@"image03").renderingMode(UIImageRenderingModeAlwaysOriginal)];
+    
     NSArray *tabBarItemTitles = @[@"首页",  @"排行榜", @"我的"];
     NSArray *items = [[self.tabBarController tabBar] items];
     
     int index = 0;
     for (UITabBarItem *item in items) {
         
-        UIImage *selectedImg = [[UIImage imageNamed:kStrFormat(@"%@_a", tabBarItemImages[index])] imageByResizeToSize:CGSizeMake(22, 22) contentMode:UIViewContentModeScaleAspectFill];
-        UIImage *unselectedImg = [[UIImage imageNamed:kStrFormat(@"%@", tabBarItemImages[index])] imageByResizeToSize:CGSizeMake(22, 22) contentMode:UIViewContentModeScaleAspectFill];
-        [item setImage:unselectedImg];
-        [item setSelectedImage:selectedImg];
+        item.zh_imagePicker = nolArr[index];
+        item.zh_selectedImagePicker = nolArr[index];
+        
         [item setTitle:tabBarItemTitles[index]];
+        [item zh_themeUpdateCallback:^(id  _Nonnull target) {
+            NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
+            textAttrs[NSForegroundColorAttributeName] = ThemePickerColorKey(@"color02").color;
+            textAttrs[NSFontAttributeName] = [UIFont fontWithName:@"GillSans-SemiBoldItalic" size:12];
+            [target setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
+        }];
+        
+        self.tabBarController.tabBar.zh_barTintColorPicker = ThemePickerColorKey(@"color05");
+        self.tabBarController.tabBar.translucent = NO;
         index++;
         
     }

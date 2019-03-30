@@ -21,6 +21,10 @@
 #import <MJRefresh.h>
 #import "AppDelegate.h"
 #import "UIColor+Hex.h"
+#import "zhThemeOperator.h"
+#import "zhThemePicker.h"
+#import "zhTheme+Components.h"
+#import "UIViewController+zhStatusBarStyle.h"
 
 #define kSharedAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
 #define kStrFormat(str,...) [NSString stringWithFormat:str,##__VA_ARGS__]

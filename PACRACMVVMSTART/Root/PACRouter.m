@@ -29,19 +29,21 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(PACRouter)
 - (NSDictionary *)viewModelViewMappings {
     if(_viewModelViewMappings == nil) {
         _viewModelViewMappings = @{
-                                   @"PACRootViewModel" : @"PACRootViewController"
+                                   @"PACRootViewModel" : @"PACRootViewController",
+                                   @"PACFivthViewModel":@"PACFivthViewController"
                                    };
     }
     return _viewModelViewMappings;
 }
+
+
 
 - (NSSet *)rootViewControllers {
     if(_rootViewControllers == nil) {
         _rootViewControllers = [NSSet setWithObjects:@"PACHomeViewController",
                                 @"PACSecondViewController",
                                 @"PACThirdViewController",
-                                @"PACFourthViewController",
-                                @"PACFivthViewController",nil];
+                                @"PACFourthViewController",nil];
     }
     return _rootViewControllers;
 }

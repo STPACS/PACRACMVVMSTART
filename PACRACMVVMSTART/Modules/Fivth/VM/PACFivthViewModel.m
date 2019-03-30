@@ -9,5 +9,12 @@
 #import "PACFivthViewModel.h"
 
 @implementation PACFivthViewModel
-
+- (void)initialize {
+    [super initialize];
+    
+    self.shouldNavBackItem = YES;
+    
+   
+    
+}
 @end

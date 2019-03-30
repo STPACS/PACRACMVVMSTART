@@ -9,5 +9,6 @@
 #import "PACBaseTableViewModel.h"
 
 @interface PACHomeViewModel : PACBaseTableViewModel
+@property (nonatomic , strong) RACCommand *taobao;//淘宝
 
 @end
