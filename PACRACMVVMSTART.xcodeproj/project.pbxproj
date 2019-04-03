@@ -92,6 +92,17 @@
 		BAC8E174224EE1DB0021A0B1 /* ph1449-p02098.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC8E154224EE1DA0021A0B1 /* ph1449-p02098.png */; };
 		BAC8E175224EE1DB0021A0B1 /* ph1449-p02101.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC8E155224EE1DA0021A0B1 /* ph1449-p02101.png */; };
 		BAC8E176224EE1DB0021A0B1 /* 604-p01490.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC8E156224EE1DA0021A0B1 /* 604-p01490.png */; };
+		BAC8E18C2251A3FC0021A0B1 /* CLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E17B2251A3FC0021A0B1 /* CLSlider.m */; };
+		BAC8E18D2251A3FC0021A0B1 /* AILoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E17E2251A3FC0021A0B1 /* AILoadingView.m */; };
+		BAC8E18E2251A3FC0021A0B1 /* UITabBarController+CLPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E1802251A3FC0021A0B1 /* UITabBarController+CLPlayerRotation.m */; };
+		BAC8E18F2251A3FC0021A0B1 /* CLPlayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E1812251A3FC0021A0B1 /* CLPlayerMaskView.m */; };
+		BAC8E1902251A3FC0021A0B1 /* UINavigationController+CLPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E1822251A3FC0021A0B1 /* UINavigationController+CLPlayerRotation.m */; };
+		BAC8E1912251A3FC0021A0B1 /* CLPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E1842251A3FC0021A0B1 /* CLPlayerView.m */; };
+		BAC8E1922251A3FC0021A0B1 /* CLGCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E1852251A3FC0021A0B1 /* CLGCDTimerManager.m */; };
+		BAC8E1932251A3FC0021A0B1 /* UIViewController+CLPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E1862251A3FC0021A0B1 /* UIViewController+CLPlayerRotation.m */; };
+		BAC8E1942251A3FC0021A0B1 /* CLPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAC8E18B2251A3FC0021A0B1 /* CLPlayer.bundle */; };
+		BAD7D4362251B81200634F23 /* CoreDataText.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAD7D4342251B81100634F23 /* CoreDataText.xcdatamodeld */; };
+		BAD7D4392251B81F00634F23 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD7D4382251B81F00634F23 /* CoreDataManager.m */; };
 		E17CA5BFAEA7E66A9D39C7E0 /* libPods-PACRACMVVMSTART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BA44BBB611B3801EFD8BA5 /* libPods-PACRACMVVMSTART.a */; };
 /* End PBXBuildFile section */
 
@@ -239,6 +250,26 @@
 		BAC8E154224EE1DA0021A0B1 /* ph1449-p02098.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ph1449-p02098.png"; sourceTree = "<group>"; };
 		BAC8E155224EE1DA0021A0B1 /* ph1449-p02101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ph1449-p02101.png"; sourceTree = "<group>"; };
 		BAC8E156224EE1DA0021A0B1 /* 604-p01490.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "604-p01490.png"; sourceTree = "<group>"; };
+		BAC8E17A2251A3FC0021A0B1 /* CLGCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGCDTimerManager.h; sourceTree = "<group>"; };
+		BAC8E17B2251A3FC0021A0B1 /* CLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSlider.m; sourceTree = "<group>"; };
+		BAC8E17C2251A3FC0021A0B1 /* CLPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPlayerView.h; sourceTree = "<group>"; };
+		BAC8E17D2251A3FC0021A0B1 /* UINavigationController+CLPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CLPlayerRotation.h"; sourceTree = "<group>"; };
+		BAC8E17E2251A3FC0021A0B1 /* AILoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AILoadingView.m; sourceTree = "<group>"; };
+		BAC8E17F2251A3FC0021A0B1 /* UIViewController+CLPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CLPlayerRotation.h"; sourceTree = "<group>"; };
+		BAC8E1802251A3FC0021A0B1 /* UITabBarController+CLPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+CLPlayerRotation.m"; sourceTree = "<group>"; };
+		BAC8E1812251A3FC0021A0B1 /* CLPlayerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPlayerMaskView.m; sourceTree = "<group>"; };
+		BAC8E1822251A3FC0021A0B1 /* UINavigationController+CLPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CLPlayerRotation.m"; sourceTree = "<group>"; };
+		BAC8E1832251A3FC0021A0B1 /* CLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSlider.h; sourceTree = "<group>"; };
+		BAC8E1842251A3FC0021A0B1 /* CLPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPlayerView.m; sourceTree = "<group>"; };
+		BAC8E1852251A3FC0021A0B1 /* CLGCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLGCDTimerManager.m; sourceTree = "<group>"; };
+		BAC8E1862251A3FC0021A0B1 /* UIViewController+CLPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CLPlayerRotation.m"; sourceTree = "<group>"; };
+		BAC8E1872251A3FC0021A0B1 /* AILoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AILoadingView.h; sourceTree = "<group>"; };
+		BAC8E1882251A3FC0021A0B1 /* CLPlayerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPlayerMaskView.h; sourceTree = "<group>"; };
+		BAC8E1892251A3FC0021A0B1 /* UITabBarController+CLPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+CLPlayerRotation.h"; sourceTree = "<group>"; };
+		BAC8E18B2251A3FC0021A0B1 /* CLPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CLPlayer.bundle; sourceTree = "<group>"; };
+		BAD7D4352251B81100634F23 /* CoreDataText.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataText.xcdatamodel; sourceTree = "<group>"; };
+		BAD7D4372251B81F00634F23 /* CoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		BAD7D4382251B81F00634F23 /* CoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 		EBB1462B6C0E17DFB362543E /* Pods-PACRACMVVMSTART.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PACRACMVVMSTART.release.xcconfig"; path = "Pods/Target Support Files/Pods-PACRACMVVMSTART/Pods-PACRACMVVMSTART.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -325,6 +356,8 @@
 		68137E152085FBBF0037358B /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				BAC8E1962251A56D0021A0B1 /* VideoHandle */,
+				BAC8E1952251A5630021A0B1 /* DataHandle */,
 				68137E162085FBD60037358B /* PrefixHeader.pch */,
 				68137E172086003B0037358B /* PACConstants.h */,
 				68137E182086003B0037358B /* PACConstants.m */,
@@ -347,6 +380,7 @@
 		68137EA620873AAE0037358B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				BA60BE5522535D7300435D8C /* login */,
 				68137EBB20873B760037358B /* Fivth */,
 				68137EC520873B760037358B /* Fourth */,
 				68137ECA20873B760037358B /* Home */,
@@ -650,6 +684,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BA60BE5522535D7300435D8C /* login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 		BAC6B2C2224E0F3100DAB087 /* ThemeManage */ = {
 			isa = PBXGroup;
 			children = (
@@ -764,6 +805,64 @@
 			path = background1;
 			sourceTree = "<group>";
 		};
+		BAC8E1792251A3FC0021A0B1 /* CLPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BAC8E1832251A3FC0021A0B1 /* CLSlider.h */,
+				BAC8E17B2251A3FC0021A0B1 /* CLSlider.m */,
+				BAC8E17D2251A3FC0021A0B1 /* UINavigationController+CLPlayerRotation.h */,
+				BAC8E17E2251A3FC0021A0B1 /* AILoadingView.m */,
+				BAC8E17F2251A3FC0021A0B1 /* UIViewController+CLPlayerRotation.h */,
+				BAC8E1802251A3FC0021A0B1 /* UITabBarController+CLPlayerRotation.m */,
+				BAC8E1822251A3FC0021A0B1 /* UINavigationController+CLPlayerRotation.m */,
+				BAC8E17C2251A3FC0021A0B1 /* CLPlayerView.h */,
+				BAC8E1842251A3FC0021A0B1 /* CLPlayerView.m */,
+				BAC8E17A2251A3FC0021A0B1 /* CLGCDTimerManager.h */,
+				BAC8E1852251A3FC0021A0B1 /* CLGCDTimerManager.m */,
+				BAC8E1862251A3FC0021A0B1 /* UIViewController+CLPlayerRotation.m */,
+				BAC8E1872251A3FC0021A0B1 /* AILoadingView.h */,
+				BAC8E1882251A3FC0021A0B1 /* CLPlayerMaskView.h */,
+				BAC8E1812251A3FC0021A0B1 /* CLPlayerMaskView.m */,
+				BAC8E1892251A3FC0021A0B1 /* UITabBarController+CLPlayerRotation.h */,
+				BAC8E18A2251A3FC0021A0B1 /* Resource */,
+			);
+			path = CLPlayer;
+			sourceTree = "<group>";
+		};
+		BAC8E18A2251A3FC0021A0B1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BAC8E18B2251A3FC0021A0B1 /* CLPlayer.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BAC8E1952251A5630021A0B1 /* DataHandle */ = {
+			isa = PBXGroup;
+			children = (
+				BAC8E1972251A57D0021A0B1 /* CoreData */,
+			);
+			path = DataHandle;
+			sourceTree = "<group>";
+		};
+		BAC8E1962251A56D0021A0B1 /* VideoHandle */ = {
+			isa = PBXGroup;
+			children = (
+				BAC8E1792251A3FC0021A0B1 /* CLPlayer */,
+			);
+			path = VideoHandle;
+			sourceTree = "<group>";
+		};
+		BAC8E1972251A57D0021A0B1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				BAD7D4342251B81100634F23 /* CoreDataText.xcdatamodeld */,
+				BAD7D4372251B81F00634F23 /* CoreDataManager.h */,
+				BAD7D4382251B81F00634F23 /* CoreDataManager.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -834,6 +933,7 @@
 				BAC8E15C224EE1DB0021A0B1 /* go_back.png in Resources */,
 				BAC8E165224EE1DB0021A0B1 /* night_discover@3x.png in Resources */,
 				BAC8E16C224EE1DB0021A0B1 /* night_home@3x.png in Resources */,
+				BAC8E1942251A3FC0021A0B1 /* CLPlayer.bundle in Resources */,
 				BAC8E173224EE1DB0021A0B1 /* 604-p00551.png in Resources */,
 				68687CBE208470460050434E /* LaunchScreen.storyboard in Resources */,
 				BAC8E171224EE1DB0021A0B1 /* ph1449-p02096.png in Resources */,
@@ -913,6 +1013,7 @@
 				68687CB6208470460050434E /* ViewController.m in Sources */,
 				486B827E210F1B8F00EFA73F /* XLChannelControl.m in Sources */,
 				4846439B20883330003BB72A /* PACThirdViewModel.m in Sources */,
+				BAC8E18F2251A3FC0021A0B1 /* CLPlayerMaskView.m in Sources */,
 				68137E192086003B0037358B /* PACConstants.m in Sources */,
 				BAC8E118224EDCBA0021A0B1 /* zhTheme+Components.m in Sources */,
 				484643A7208836D3003BB72A /* PACFourthViewController.m in Sources */,
@@ -923,6 +1024,7 @@
 				486B8281210F1B8F00EFA73F /* XLChannelHeader.m in Sources */,
 				BAC8E121224EDDBD0021A0B1 /* zhThemeOperator.m in Sources */,
 				48464392208828D0003BB72A /* PACBaseTableViewController.m in Sources */,
+				BAC8E1922251A3FC0021A0B1 /* CLGCDTimerManager.m in Sources */,
 				484643952088330A003BB72A /* PACHomeViewModel.m in Sources */,
 				68137EDB20873FA80037358B /* UIViewController+RTRootNavigationController.m in Sources */,
 				BAC8E119224EDCBA0021A0B1 /* zhThemePicker.m in Sources */,
@@ -930,26 +1032,34 @@
 				68137EA1208725580037358B /* CustomBarItem.m in Sources */,
 				486B8271210F1A6500EFA73F /* PACChoseView.m in Sources */,
 				BAC8E130224EDE130021A0B1 /* UIColor+Extend.m in Sources */,
+				BAC8E1912251A3FC0021A0B1 /* CLPlayerView.m in Sources */,
 				BAC8E131224EDE130021A0B1 /* UIImage+Color.m in Sources */,
 				484643A4208836C5003BB72A /* PACFivthViewController.m in Sources */,
 				486B8280210F1B8F00EFA73F /* XLChannelItem.m in Sources */,
 				484643AD208836E8003BB72A /* PACSecondViewController.m in Sources */,
 				68137E9D208724470037358B /* PACBaseViewController.m in Sources */,
 				BAC8E117224EDCBA0021A0B1 /* zhThemeManager.m in Sources */,
+				BAC8E18E2251A3FC0021A0B1 /* UITabBarController+CLPlayerRotation.m in Sources */,
 				4846439E2088368E003BB72A /* PACFourthViewModel.m in Sources */,
+				BAD7D4392251B81F00634F23 /* CoreDataManager.m in Sources */,
 				4846439820883320003BB72A /* PACSecondViewModel.m in Sources */,
 				68CE8FA320848FA30053A6E8 /* PACBaseViewModel.m in Sources */,
+				BAC8E1932251A3FC0021A0B1 /* UIViewController+CLPlayerRotation.m in Sources */,
 				484643B0208836F2003BB72A /* PACThirdViewController.m in Sources */,
+				BAD7D4362251B81200634F23 /* CoreDataText.xcdatamodeld in Sources */,
 				484643A12088369D003BB72A /* PACFivthViewModel.m in Sources */,
 				486B8274210F1AD400EFA73F /* UIColor+Hex.m in Sources */,
 				68687CC1208470460050434E /* main.m in Sources */,
 				68137E142085F7470037358B /* PACNetAPIClientManager.m in Sources */,
+				BAC8E18C2251A3FC0021A0B1 /* CLSlider.m in Sources */,
 				486B8287210F1C6E00EFA73F /* PacSecondViewController.m in Sources */,
 				4846438C20882728003BB72A /* PACRootViewModel.m in Sources */,
 				484643AA208836DC003BB72A /* PACHomeViewController.m in Sources */,
+				BAC8E18D2251A3FC0021A0B1 /* AILoadingView.m in Sources */,
 				68137EDA20873FA80037358B /* RTRootNavigationController.m in Sources */,
 				68137EDE20873FFD0037358B /* PACRouter.m in Sources */,
 				68687CB3208470450050434E /* AppDelegate.m in Sources */,
+				BAC8E1902251A3FC0021A0B1 /* UINavigationController+CLPlayerRotation.m in Sources */,
 				4846438F208827FE003BB72A /* PACBaseTableViewModel.m in Sources */,
 				4846438520875CD9003BB72A /* PACRootViewController.m in Sources */,
 				68137E1C2086D8880037358B /* PACCacheManager.m in Sources */,
@@ -1103,7 +1213,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${SRCROOT}/PACRACMVVMSTART/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = PACRACMVVMSTART/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1125,7 +1235,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${SRCROOT}/PACRACMVVMSTART/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = PACRACMVVMSTART/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1158,6 +1268,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAD7D4342251B81100634F23 /* CoreDataText.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAD7D4352251B81100634F23 /* CoreDataText.xcdatamodel */,
+			);
+			currentVersion = BAD7D4352251B81100634F23 /* CoreDataText.xcdatamodel */;
+			path = CoreDataText.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 68687CA6208470450050434E /* Project object */;
 }

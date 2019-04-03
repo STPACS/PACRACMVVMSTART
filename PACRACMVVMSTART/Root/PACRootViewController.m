@@ -80,7 +80,6 @@
     
     [self customizeTabBarForController];
     
-    
     [kSharedAppDelegate.navigationControllerStack pushNavigationController:homeNav];
     
     [[self
@@ -88,7 +87,6 @@
       fromProtocol:@protocol(RDVTabBarControllerDelegate)]
      subscribeNext:^(RACTuple *tuple) {
          //do some thing
-         [zhThemeOperator changeThemeDayOrNight];
 
          [kSharedAppDelegate.navigationControllerStack popNavigationController];
          [kSharedAppDelegate.navigationControllerStack pushNavigationController:tuple.second];

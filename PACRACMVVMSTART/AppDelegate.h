@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "PACNavigationControllerStack.h"
+#import <CoreData/CoreData.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -15,6 +16,10 @@
 @property (nonatomic , strong , readonly) PACNavigationControllerStack *navigationControllerStack;
 @property (nonatomic , strong) RACCommand *test;
 - (void)resetRootViewController;
+
+@property (readonly, strong) NSPersistentContainer *persistentContainer;
+
+- (void)saveContext;
 
 @end
 
