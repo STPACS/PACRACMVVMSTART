@@ -16,10 +16,9 @@
     [super initialize];
     
     
-    //淘宝数据查询
     self.taobao = [[RACCommand alloc]initWithSignalBlock:^RACSignal *(NSString *cellVM) {
         
-        PACFivthViewModel *vm = [[PACFivthViewModel alloc]initWithServices:self.services params:@{KEY_TITLE:@"淘宝数据查询",@"type":@"taobao"}];
+        PACFivthViewModel *vm = [[PACFivthViewModel alloc]initWithServices:self.services params:@{KEY_TITLE:@"",@"type":@"taobao"}];
         [self.services pushViewModel:vm animated:YES];
         
         return [RACSignal empty];

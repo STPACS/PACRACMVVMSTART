@@ -23,18 +23,41 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    self.window.backgroundColor = [UIColor whiteColor];
+    
     [self resetRootViewController];
 
-    [self configureAppearance];
+    [self presentLoginController];
     
     [self.window makeKeyAndVisible];
+    
+    [self configureAppearance];
 
     return YES;
 }
 
 - (void)configureAppearance {
     self.window.backgroundColor = [UIColor whiteColor];
-  
+    [UINavigationBar appearance].barTintColor = [PACColorSet getColorMain];
+    [UINavigationBar appearance].barStyle  = UIBarStyleBlackTranslucent;
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    [UINavigationBar appearance].translucent = NO;
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+}
+
+//登录
+- (void)presentLoginController {
+    
+    @weakify(self)
+    self.presentLoginControllerCmd = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
+        @strongify(self)
+        
+        LCLoginViewModel *vm = [[LCLoginViewModel alloc] initWithServices:self.services params:@{KEY_TITLE:@"登录"}];
+        [self.services presentViewModel:vm animated:YES completion:^{
+        }];
+        return [RACSignal empty];
+        
+    }];
 }
 
 - (PACBaseViewModel *)createInitViewModel {
@@ -46,7 +69,6 @@
     self.navigationControllerStack = [[PACNavigationControllerStack alloc] initWithServices:self.services];
     
     [self.services resetRootViewModel:[self createInitViewModel]];
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

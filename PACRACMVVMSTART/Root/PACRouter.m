@@ -30,12 +30,15 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(PACRouter)
     if(_viewModelViewMappings == nil) {
         _viewModelViewMappings = @{
                                    @"PACRootViewModel" : @"PACRootViewController",
-                                   @"PACFivthViewModel":@"PACFivthViewController"
+                                   @"PACFivthViewModel":@"PACFivthViewController",
+                                   @"LCLoginViewModel":@"LCLoginViewController",
+                                   @"LCRegisterViewModel":@"LCRegisterViewController",
+                                   @"LCForgetPasswordViewModel":@"LCForgetPasswordViewController",
+                                   @"LCAregmentViewModel":@"LCAregmentViewController"
                                    };
     }
     return _viewModelViewMappings;
 }
-
 
 
 - (NSSet *)rootViewControllers {

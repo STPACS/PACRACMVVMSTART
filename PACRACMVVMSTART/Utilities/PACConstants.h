@@ -9,6 +9,38 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+//驾驶证号
+extern NSString *const Driver_licence_number;
+
+//档案编号
+extern NSString *const file_number;
+
+//省份（城市）
+extern NSString *const province_city;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 typedef void (^VoidBlock)(void);
 typedef BOOL (^BoolBlock)(void);
 typedef int  (^IntBlock) (void);
@@ -33,6 +65,11 @@ typedef id   (^IDBlock_id)  (id);
 
 extern NSString *const CODE;
 
+extern NSString *const APIKEY;
+
+
+extern NSString *const kefu;
+
 extern NSString *const STATUS_Succ;
 
 extern NSString *const STATUS_Fail;
@@ -56,6 +93,11 @@ extern const CGFloat NAV_ITEM_FONT_SIZE;
 
 extern NSString *const KEY_TITLE;
 
+//改变tabbar select的通知
+extern NSString *const changeTabbarSelectNotification;
 
-
+extern BOOL IS_First_Start;//标记第一次启动，用在根据定位获取天气
+extern BOOL IS_First_RunLoop;//标记第一次轮询获取值
+//标志是否第一次启动显示更新
+extern BOOL IS_First_ShowUpdateVersion;
 @end

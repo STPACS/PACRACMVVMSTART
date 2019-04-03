@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "PACNavigationControllerStack.h"
 #import <CoreData/CoreData.h>
+#import "LCLoginViewModel.h"//登录
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -16,6 +17,9 @@
 @property (nonatomic , strong , readonly) PACNavigationControllerStack *navigationControllerStack;
 @property (nonatomic , strong) RACCommand *test;
 - (void)resetRootViewController;
+
+@property (nonatomic , strong , readwrite) RACCommand *presentLoginControllerCmd;
+
 
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 

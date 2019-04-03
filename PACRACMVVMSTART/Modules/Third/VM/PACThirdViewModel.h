@@ -9,5 +9,6 @@
 #import "PACBaseTableViewModel.h"
 
 @interface PACThirdViewModel : PACBaseTableViewModel
-
+@property (nonatomic , strong) RACCommand *presentLoginControllerCmd;//登录
+@property (nonatomic , copy) void (^reloadTable) (void);
 @end

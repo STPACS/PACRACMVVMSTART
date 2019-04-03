@@ -32,7 +32,6 @@
 		486B8287210F1C6E00EFA73F /* PacSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B8286210F1C6E00EFA73F /* PacSecondViewController.m */; };
 		68137E0E2085EBD40037358B /* PACNetAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E0D2085EBD40037358B /* PACNetAPIManager.m */; };
 		68137E142085F7470037358B /* PACNetAPIClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E132085F7470037358B /* PACNetAPIClientManager.m */; };
-		68137E192086003B0037358B /* PACConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E182086003B0037358B /* PACConstants.m */; };
 		68137E1C2086D8880037358B /* PACCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E1B2086D8880037358B /* PACCacheManager.m */; };
 		68137E9D208724470037358B /* PACBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137E9C208724470037358B /* PACBaseViewController.m */; };
 		68137EA1208725580037358B /* CustomBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68137EA0208725580037358B /* CustomBarItem.m */; };
@@ -49,6 +48,29 @@
 		68687CBE208470460050434E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68687CBC208470460050434E /* LaunchScreen.storyboard */; };
 		68687CC1208470460050434E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68687CC0208470460050434E /* main.m */; };
 		68CE8FA320848FA30053A6E8 /* PACBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CE8FA220848FA30053A6E8 /* PACBaseViewModel.m */; };
+		BA27C3E1225446160053CE4C /* LCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3E0225446160053CE4C /* LCLoginViewController.m */; };
+		BA27C3E4225446310053CE4C /* LCLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3E3225446310053CE4C /* LCLoginViewModel.m */; };
+		BA27C3E722544F9B0053CE4C /* LCLoginCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3E622544F9B0053CE4C /* LCLoginCellViewModel.m */; };
+		BA27C3EB2254506E0053CE4C /* RegexUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3E92254506E0053CE4C /* RegexUtil.m */; };
+		BA27C3EE2254512F0053CE4C /* PACBaseCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3ED2254512F0053CE4C /* PACBaseCellViewModel.m */; };
+		BA27C3F1225451960053CE4C /* NSObject+ShowTips.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3EF225451960053CE4C /* NSObject+ShowTips.m */; };
+		BA27C3F42254519E0053CE4C /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3F22254519E0053CE4C /* NSObject+Parse.m */; };
+		BA27C3F7225451A40053CE4C /* PACColorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3F5225451A40053CE4C /* PACColorSet.m */; };
+		BA27C3FA225451AC0053CE4C /* LoginUserDefaultMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3F9225451AC0053CE4C /* LoginUserDefaultMessage.m */; };
+		BA27C3FD225451B70053CE4C /* PACConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3FB225451B60053CE4C /* PACConstants.m */; };
+		BA27C400225451CB0053CE4C /* PACBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C3FF225451CB0053CE4C /* PACBaseModel.m */; };
+		BA27C404225453820053CE4C /* LCLoginFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C403225453820053CE4C /* LCLoginFooterView.m */; };
+		BA27C4072254540A0053CE4C /* LCloginHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C4062254540A0053CE4C /* LCloginHeaderView.m */; };
+		BA27C40A2254542D0053CE4C /* LCLoginViewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C4092254542D0053CE4C /* LCLoginViewCellTableViewCell.m */; };
+		BA27C40D225455C50053CE4C /* PACBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C40C225455C50053CE4C /* PACBaseTableViewCell.m */; };
+		BA27C414225458FD0053CE4C /* LCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C413225458FD0053CE4C /* LCRegisterViewController.m */; };
+		BA27C4172254590D0053CE4C /* LCRegisterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C4162254590D0053CE4C /* LCRegisterViewModel.m */; };
+		BA27C41A2254591D0053CE4C /* LCForgetPasswordViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C4192254591D0053CE4C /* LCForgetPasswordViewModel.m */; };
+		BA27C41D225459320053CE4C /* LCForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C41C225459320053CE4C /* LCForgetPasswordViewController.m */; };
+		BA27C421225461FC0053CE4C /* LCAregmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C420225461FC0053CE4C /* LCAregmentViewController.m */; };
+		BA27C4242254620D0053CE4C /* LCAregmentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C4232254620D0053CE4C /* LCAregmentViewModel.m */; };
+		BA27C4272254638F0053CE4C /* LCRegisterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C4262254638F0053CE4C /* LCRegisterHeaderView.m */; };
+		BA27C42A2254639C0053CE4C /* LCRegisterFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C4292254639C0053CE4C /* LCRegisterFooterView.m */; };
 		BAC8E117224EDCBA0021A0B1 /* zhThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E110224EDCB90021A0B1 /* zhThemeManager.m */; };
 		BAC8E118224EDCBA0021A0B1 /* zhTheme+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E115224EDCB90021A0B1 /* zhTheme+Components.m */; };
 		BAC8E119224EDCBA0021A0B1 /* zhThemePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8E116224EDCB90021A0B1 /* zhThemePicker.m */; };
@@ -162,8 +184,6 @@
 		68137E122085F7470037358B /* PACNetAPIClientManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACNetAPIClientManager.h; sourceTree = "<group>"; };
 		68137E132085F7470037358B /* PACNetAPIClientManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACNetAPIClientManager.m; sourceTree = "<group>"; };
 		68137E162085FBD60037358B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		68137E172086003B0037358B /* PACConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACConstants.h; sourceTree = "<group>"; };
-		68137E182086003B0037358B /* PACConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACConstants.m; sourceTree = "<group>"; };
 		68137E1A2086D8880037358B /* PACCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACCacheManager.h; sourceTree = "<group>"; };
 		68137E1B2086D8880037358B /* PACCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACCacheManager.m; sourceTree = "<group>"; };
 		68137E1E2086D8BD0037358B /* PACCacheProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACCacheProtocol.h; sourceTree = "<group>"; };
@@ -197,6 +217,53 @@
 		68687CC0208470460050434E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68CE8FA120848FA30053A6E8 /* PACBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACBaseViewModel.h; sourceTree = "<group>"; };
 		68CE8FA220848FA30053A6E8 /* PACBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACBaseViewModel.m; sourceTree = "<group>"; };
+		BA27C3DF225446160053CE4C /* LCLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCLoginViewController.h; sourceTree = "<group>"; };
+		BA27C3E0225446160053CE4C /* LCLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCLoginViewController.m; sourceTree = "<group>"; };
+		BA27C3E2225446310053CE4C /* LCLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCLoginViewModel.h; sourceTree = "<group>"; };
+		BA27C3E3225446310053CE4C /* LCLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCLoginViewModel.m; sourceTree = "<group>"; };
+		BA27C3E522544F9B0053CE4C /* LCLoginCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCLoginCellViewModel.h; sourceTree = "<group>"; };
+		BA27C3E622544F9B0053CE4C /* LCLoginCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCLoginCellViewModel.m; sourceTree = "<group>"; };
+		BA27C3E92254506E0053CE4C /* RegexUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexUtil.m; sourceTree = "<group>"; };
+		BA27C3EA2254506E0053CE4C /* RegexUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexUtil.h; sourceTree = "<group>"; };
+		BA27C3EC2254512F0053CE4C /* PACBaseCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACBaseCellViewModel.h; sourceTree = "<group>"; };
+		BA27C3ED2254512F0053CE4C /* PACBaseCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACBaseCellViewModel.m; sourceTree = "<group>"; };
+		BA27C3EF225451960053CE4C /* NSObject+ShowTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ShowTips.m"; sourceTree = "<group>"; };
+		BA27C3F0225451960053CE4C /* NSObject+ShowTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ShowTips.h"; sourceTree = "<group>"; };
+		BA27C3F22254519E0053CE4C /* NSObject+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Parse.m"; sourceTree = "<group>"; };
+		BA27C3F32254519E0053CE4C /* NSObject+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Parse.h"; sourceTree = "<group>"; };
+		BA27C3F5225451A40053CE4C /* PACColorSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACColorSet.m; sourceTree = "<group>"; };
+		BA27C3F6225451A40053CE4C /* PACColorSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACColorSet.h; sourceTree = "<group>"; };
+		BA27C3F8225451AC0053CE4C /* LoginUserDefaultMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginUserDefaultMessage.h; sourceTree = "<group>"; };
+		BA27C3F9225451AC0053CE4C /* LoginUserDefaultMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUserDefaultMessage.m; sourceTree = "<group>"; };
+		BA27C3FB225451B60053CE4C /* PACConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACConstants.m; sourceTree = "<group>"; };
+		BA27C3FC225451B60053CE4C /* PACConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACConstants.h; sourceTree = "<group>"; };
+		BA27C3FE225451CB0053CE4C /* PACBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACBaseModel.h; sourceTree = "<group>"; };
+		BA27C3FF225451CB0053CE4C /* PACBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACBaseModel.m; sourceTree = "<group>"; };
+		BA27C402225453820053CE4C /* LCLoginFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCLoginFooterView.h; sourceTree = "<group>"; };
+		BA27C403225453820053CE4C /* LCLoginFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCLoginFooterView.m; sourceTree = "<group>"; };
+		BA27C4052254540A0053CE4C /* LCloginHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCloginHeaderView.h; sourceTree = "<group>"; };
+		BA27C4062254540A0053CE4C /* LCloginHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCloginHeaderView.m; sourceTree = "<group>"; };
+		BA27C4082254542D0053CE4C /* LCLoginViewCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCLoginViewCellTableViewCell.h; sourceTree = "<group>"; };
+		BA27C4092254542D0053CE4C /* LCLoginViewCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCLoginViewCellTableViewCell.m; sourceTree = "<group>"; };
+		BA27C40B225455C50053CE4C /* PACBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACBaseTableViewCell.h; sourceTree = "<group>"; };
+		BA27C40C225455C50053CE4C /* PACBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACBaseTableViewCell.m; sourceTree = "<group>"; };
+		BA27C40E2254563A0053CE4C /* PACReactiveViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACReactiveViewProtocol.h; sourceTree = "<group>"; };
+		BA27C412225458FD0053CE4C /* LCRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCRegisterViewController.h; sourceTree = "<group>"; };
+		BA27C413225458FD0053CE4C /* LCRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCRegisterViewController.m; sourceTree = "<group>"; };
+		BA27C4152254590D0053CE4C /* LCRegisterViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCRegisterViewModel.h; sourceTree = "<group>"; };
+		BA27C4162254590D0053CE4C /* LCRegisterViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCRegisterViewModel.m; sourceTree = "<group>"; };
+		BA27C4182254591D0053CE4C /* LCForgetPasswordViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCForgetPasswordViewModel.h; sourceTree = "<group>"; };
+		BA27C4192254591D0053CE4C /* LCForgetPasswordViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCForgetPasswordViewModel.m; sourceTree = "<group>"; };
+		BA27C41B225459320053CE4C /* LCForgetPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCForgetPasswordViewController.h; sourceTree = "<group>"; };
+		BA27C41C225459320053CE4C /* LCForgetPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCForgetPasswordViewController.m; sourceTree = "<group>"; };
+		BA27C41F225461FC0053CE4C /* LCAregmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCAregmentViewController.h; sourceTree = "<group>"; };
+		BA27C420225461FC0053CE4C /* LCAregmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAregmentViewController.m; sourceTree = "<group>"; };
+		BA27C4222254620D0053CE4C /* LCAregmentViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCAregmentViewModel.h; sourceTree = "<group>"; };
+		BA27C4232254620D0053CE4C /* LCAregmentViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAregmentViewModel.m; sourceTree = "<group>"; };
+		BA27C4252254638F0053CE4C /* LCRegisterHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCRegisterHeaderView.h; sourceTree = "<group>"; };
+		BA27C4262254638F0053CE4C /* LCRegisterHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCRegisterHeaderView.m; sourceTree = "<group>"; };
+		BA27C4282254639C0053CE4C /* LCRegisterFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCRegisterFooterView.h; sourceTree = "<group>"; };
+		BA27C4292254639C0053CE4C /* LCRegisterFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCRegisterFooterView.m; sourceTree = "<group>"; };
 		BAC8E110224EDCB90021A0B1 /* zhThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhThemeManager.m; sourceTree = "<group>"; };
 		BAC8E111224EDCB90021A0B1 /* zhTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhTheme.h; sourceTree = "<group>"; };
 		BAC8E112224EDCB90021A0B1 /* zhThemePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhThemePicker.h; sourceTree = "<group>"; };
@@ -326,6 +393,7 @@
 				68137E102085EE360037358B /* PACVMServicesProtocol.h */,
 				68137E1E2086D8BD0037358B /* PACCacheProtocol.h */,
 				68137EA5208726FA0037358B /* PACNavGationProtocol.h */,
+				BA27C40E2254563A0053CE4C /* PACReactiveViewProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -359,8 +427,6 @@
 				BAC8E1962251A56D0021A0B1 /* VideoHandle */,
 				BAC8E1952251A5630021A0B1 /* DataHandle */,
 				68137E162085FBD60037358B /* PrefixHeader.pch */,
-				68137E172086003B0037358B /* PACConstants.h */,
-				68137E182086003B0037358B /* PACConstants.m */,
 				68137E222086DB6A0037358B /* PACSynthesizeSinglet.h */,
 			);
 			path = Others;
@@ -638,6 +704,7 @@
 		68687CB0208470450050434E /* PACRACMVVMSTART */ = {
 			isa = PBXGroup;
 			children = (
+				BA27C3E8225450250053CE4C /* Common */,
 				BAC8E122224EDE130021A0B1 /* Utilities */,
 				68137EA620873AAE0037358B /* Modules */,
 				68137ECF20873BE10037358B /* Root */,
@@ -663,6 +730,10 @@
 		68CE8FA020848F8E0053A6E8 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				BA27C3FE225451CB0053CE4C /* PACBaseModel.h */,
+				BA27C3FF225451CB0053CE4C /* PACBaseModel.m */,
+				BA27C3EC2254512F0053CE4C /* PACBaseCellViewModel.h */,
+				BA27C3ED2254512F0053CE4C /* PACBaseCellViewModel.m */,
 				68CE8FA120848FA30053A6E8 /* PACBaseViewModel.h */,
 				68CE8FA220848FA30053A6E8 /* PACBaseViewModel.m */,
 				68137E9B208724470037358B /* PACBaseViewController.h */,
@@ -671,6 +742,8 @@
 				4846438E208827FE003BB72A /* PACBaseTableViewModel.m */,
 				48464390208828D0003BB72A /* PACBaseTableViewController.h */,
 				48464391208828D0003BB72A /* PACBaseTableViewController.m */,
+				BA27C40B225455C50053CE4C /* PACBaseTableViewCell.h */,
+				BA27C40C225455C50053CE4C /* PACBaseTableViewCell.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -684,9 +757,86 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BA27C3E8225450250053CE4C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BA27C3EA2254506E0053CE4C /* RegexUtil.h */,
+				BA27C3E92254506E0053CE4C /* RegexUtil.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BA27C4012254535E0053CE4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA27C402225453820053CE4C /* LCLoginFooterView.h */,
+				BA27C403225453820053CE4C /* LCLoginFooterView.m */,
+				BA27C4052254540A0053CE4C /* LCloginHeaderView.h */,
+				BA27C4062254540A0053CE4C /* LCloginHeaderView.m */,
+				BA27C4082254542D0053CE4C /* LCLoginViewCellTableViewCell.h */,
+				BA27C4092254542D0053CE4C /* LCLoginViewCellTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA27C40F225458B40053CE4C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BA27C4012254535E0053CE4C /* View */,
+				BA27C3DF225446160053CE4C /* LCLoginViewController.h */,
+				BA27C3E0225446160053CE4C /* LCLoginViewController.m */,
+				BA27C3E2225446310053CE4C /* LCLoginViewModel.h */,
+				BA27C3E3225446310053CE4C /* LCLoginViewModel.m */,
+				BA27C3E522544F9B0053CE4C /* LCLoginCellViewModel.h */,
+				BA27C3E622544F9B0053CE4C /* LCLoginCellViewModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BA27C410225458C30053CE4C /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				BA27C412225458FD0053CE4C /* LCRegisterViewController.h */,
+				BA27C413225458FD0053CE4C /* LCRegisterViewController.m */,
+				BA27C4152254590D0053CE4C /* LCRegisterViewModel.h */,
+				BA27C4162254590D0053CE4C /* LCRegisterViewModel.m */,
+				BA27C4252254638F0053CE4C /* LCRegisterHeaderView.h */,
+				BA27C4262254638F0053CE4C /* LCRegisterHeaderView.m */,
+				BA27C4282254639C0053CE4C /* LCRegisterFooterView.h */,
+				BA27C4292254639C0053CE4C /* LCRegisterFooterView.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		BA27C411225458D70053CE4C /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				BA27C4182254591D0053CE4C /* LCForgetPasswordViewModel.h */,
+				BA27C4192254591D0053CE4C /* LCForgetPasswordViewModel.m */,
+				BA27C41B225459320053CE4C /* LCForgetPasswordViewController.h */,
+				BA27C41C225459320053CE4C /* LCForgetPasswordViewController.m */,
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		BA27C41E2254618E0053CE4C /* Aregment */ = {
+			isa = PBXGroup;
+			children = (
+				BA27C41F225461FC0053CE4C /* LCAregmentViewController.h */,
+				BA27C420225461FC0053CE4C /* LCAregmentViewController.m */,
+				BA27C4222254620D0053CE4C /* LCAregmentViewModel.h */,
+				BA27C4232254620D0053CE4C /* LCAregmentViewModel.m */,
+			);
+			path = Aregment;
+			sourceTree = "<group>";
+		};
 		BA60BE5522535D7300435D8C /* login */ = {
 			isa = PBXGroup;
 			children = (
+				BA27C41E2254618E0053CE4C /* Aregment */,
+				BA27C411225458D70053CE4C /* ForgetPassword */,
+				BA27C410225458C30053CE4C /* Register */,
+				BA27C40F225458B40053CE4C /* Login */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -730,6 +880,16 @@
 				BAC8E12A224EDE130021A0B1 /* UIView+Layout.h */,
 				BAC8E12B224EDE130021A0B1 /* UIImage+Color.m */,
 				BAC8E12C224EDE130021A0B1 /* UIColor+Extend.h */,
+				BA27C3F0225451960053CE4C /* NSObject+ShowTips.h */,
+				BA27C3EF225451960053CE4C /* NSObject+ShowTips.m */,
+				BA27C3F32254519E0053CE4C /* NSObject+Parse.h */,
+				BA27C3F22254519E0053CE4C /* NSObject+Parse.m */,
+				BA27C3F6225451A40053CE4C /* PACColorSet.h */,
+				BA27C3F5225451A40053CE4C /* PACColorSet.m */,
+				BA27C3F8225451AC0053CE4C /* LoginUserDefaultMessage.h */,
+				BA27C3F9225451AC0053CE4C /* LoginUserDefaultMessage.m */,
+				BA27C3FC225451B60053CE4C /* PACConstants.h */,
+				BA27C3FB225451B60053CE4C /* PACConstants.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -990,16 +1150,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PACRACMVVMSTART/Pods-PACRACMVVMSTART-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-PACRACMVVMSTART/Pods-PACRACMVVMSTART-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PACRACMVVMSTART/Pods-PACRACMVVMSTART-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PACRACMVVMSTART/Pods-PACRACMVVMSTART-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1012,52 +1174,72 @@
 				486B8284210F1BF800EFA73F /* PacIndexViewController.m in Sources */,
 				68687CB6208470460050434E /* ViewController.m in Sources */,
 				486B827E210F1B8F00EFA73F /* XLChannelControl.m in Sources */,
+				BA27C3F7225451A40053CE4C /* PACColorSet.m in Sources */,
 				4846439B20883330003BB72A /* PACThirdViewModel.m in Sources */,
 				BAC8E18F2251A3FC0021A0B1 /* CLPlayerMaskView.m in Sources */,
-				68137E192086003B0037358B /* PACConstants.m in Sources */,
 				BAC8E118224EDCBA0021A0B1 /* zhTheme+Components.m in Sources */,
 				484643A7208836D3003BB72A /* PACFourthViewController.m in Sources */,
 				486B827F210F1B8F00EFA73F /* XLChannelView.m in Sources */,
 				BAC8E12F224EDE130021A0B1 /* UIView+Layout.m in Sources */,
+				BA27C41A2254591D0053CE4C /* LCForgetPasswordViewModel.m in Sources */,
 				BAC8E12D224EDE130021A0B1 /* NSObject+AssociatedObject.m in Sources */,
 				68137ED520873EFD0037358B /* PACNavigationControllerStack.m in Sources */,
 				486B8281210F1B8F00EFA73F /* XLChannelHeader.m in Sources */,
+				BA27C4242254620D0053CE4C /* LCAregmentViewModel.m in Sources */,
 				BAC8E121224EDDBD0021A0B1 /* zhThemeOperator.m in Sources */,
 				48464392208828D0003BB72A /* PACBaseTableViewController.m in Sources */,
+				BA27C3EB2254506E0053CE4C /* RegexUtil.m in Sources */,
 				BAC8E1922251A3FC0021A0B1 /* CLGCDTimerManager.m in Sources */,
+				BA27C41D225459320053CE4C /* LCForgetPasswordViewController.m in Sources */,
 				484643952088330A003BB72A /* PACHomeViewModel.m in Sources */,
+				BA27C40A2254542D0053CE4C /* LCLoginViewCellTableViewCell.m in Sources */,
+				BA27C40D225455C50053CE4C /* PACBaseTableViewCell.m in Sources */,
+				BA27C3F1225451960053CE4C /* NSObject+ShowTips.m in Sources */,
 				68137EDB20873FA80037358B /* UIViewController+RTRootNavigationController.m in Sources */,
+				BA27C3EE2254512F0053CE4C /* PACBaseCellViewModel.m in Sources */,
+				BA27C3FA225451AC0053CE4C /* LoginUserDefaultMessage.m in Sources */,
 				BAC8E119224EDCBA0021A0B1 /* zhThemePicker.m in Sources */,
 				68137E0E2085EBD40037358B /* PACNetAPIManager.m in Sources */,
+				BA27C4272254638F0053CE4C /* LCRegisterHeaderView.m in Sources */,
 				68137EA1208725580037358B /* CustomBarItem.m in Sources */,
 				486B8271210F1A6500EFA73F /* PACChoseView.m in Sources */,
 				BAC8E130224EDE130021A0B1 /* UIColor+Extend.m in Sources */,
 				BAC8E1912251A3FC0021A0B1 /* CLPlayerView.m in Sources */,
 				BAC8E131224EDE130021A0B1 /* UIImage+Color.m in Sources */,
 				484643A4208836C5003BB72A /* PACFivthViewController.m in Sources */,
+				BA27C414225458FD0053CE4C /* LCRegisterViewController.m in Sources */,
+				BA27C4072254540A0053CE4C /* LCloginHeaderView.m in Sources */,
 				486B8280210F1B8F00EFA73F /* XLChannelItem.m in Sources */,
 				484643AD208836E8003BB72A /* PACSecondViewController.m in Sources */,
 				68137E9D208724470037358B /* PACBaseViewController.m in Sources */,
 				BAC8E117224EDCBA0021A0B1 /* zhThemeManager.m in Sources */,
 				BAC8E18E2251A3FC0021A0B1 /* UITabBarController+CLPlayerRotation.m in Sources */,
 				4846439E2088368E003BB72A /* PACFourthViewModel.m in Sources */,
+				BA27C3E722544F9B0053CE4C /* LCLoginCellViewModel.m in Sources */,
 				BAD7D4392251B81F00634F23 /* CoreDataManager.m in Sources */,
 				4846439820883320003BB72A /* PACSecondViewModel.m in Sources */,
+				BA27C42A2254639C0053CE4C /* LCRegisterFooterView.m in Sources */,
 				68CE8FA320848FA30053A6E8 /* PACBaseViewModel.m in Sources */,
 				BAC8E1932251A3FC0021A0B1 /* UIViewController+CLPlayerRotation.m in Sources */,
+				BA27C3FD225451B70053CE4C /* PACConstants.m in Sources */,
 				484643B0208836F2003BB72A /* PACThirdViewController.m in Sources */,
 				BAD7D4362251B81200634F23 /* CoreDataText.xcdatamodeld in Sources */,
 				484643A12088369D003BB72A /* PACFivthViewModel.m in Sources */,
 				486B8274210F1AD400EFA73F /* UIColor+Hex.m in Sources */,
+				BA27C421225461FC0053CE4C /* LCAregmentViewController.m in Sources */,
 				68687CC1208470460050434E /* main.m in Sources */,
 				68137E142085F7470037358B /* PACNetAPIClientManager.m in Sources */,
 				BAC8E18C2251A3FC0021A0B1 /* CLSlider.m in Sources */,
 				486B8287210F1C6E00EFA73F /* PacSecondViewController.m in Sources */,
+				BA27C400225451CB0053CE4C /* PACBaseModel.m in Sources */,
 				4846438C20882728003BB72A /* PACRootViewModel.m in Sources */,
+				BA27C4172254590D0053CE4C /* LCRegisterViewModel.m in Sources */,
 				484643AA208836DC003BB72A /* PACHomeViewController.m in Sources */,
 				BAC8E18D2251A3FC0021A0B1 /* AILoadingView.m in Sources */,
 				68137EDA20873FA80037358B /* RTRootNavigationController.m in Sources */,
 				68137EDE20873FFD0037358B /* PACRouter.m in Sources */,
+				BA27C404225453820053CE4C /* LCLoginFooterView.m in Sources */,
+				BA27C3E4225446310053CE4C /* LCLoginViewModel.m in Sources */,
 				68687CB3208470450050434E /* AppDelegate.m in Sources */,
 				BAC8E1902251A3FC0021A0B1 /* UINavigationController+CLPlayerRotation.m in Sources */,
 				4846438F208827FE003BB72A /* PACBaseTableViewModel.m in Sources */,
@@ -1066,6 +1248,8 @@
 				4846438920875E83003BB72A /* PACRDVTabBarController.m in Sources */,
 				68137EA4208725A00037358B /* UINavigationItem+CustomItem.m in Sources */,
 				68137ED220873E690037358B /* PACVMServicesImpl.m in Sources */,
+				BA27C3F42254519E0053CE4C /* NSObject+Parse.m in Sources */,
+				BA27C3E1225446160053CE4C /* LCLoginViewController.m in Sources */,
 				BAC8E12E224EDE130021A0B1 /* UIViewController+zhStatusBarStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

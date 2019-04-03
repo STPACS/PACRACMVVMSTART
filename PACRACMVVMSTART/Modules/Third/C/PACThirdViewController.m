@@ -7,15 +7,35 @@
 //
 
 #import "PACThirdViewController.h"
+#import "PACThirdViewModel.h"
 
 @interface PACThirdViewController ()
+@property (nonatomic, strong)PACThirdViewModel *viewModel;
 
 @end
 
 @implementation PACThirdViewController
+@dynamic viewModel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setTitle:@"登录" forState:UIControlStateNormal];
+    
+    [button zh_themeUpdateCallback:^(id  _Nonnull target) {
+        
+        [target setTitleColor:ThemePickerColorKey(@"color02").color forState:UIControlStateNormal];
+    }];
+    
+    UIBarButtonItem *rightBtn = [[UIBarButtonItem alloc]initWithCustomView:button];
+    self.navigationItem.rightBarButtonItem = rightBtn;
+    
+    [button addBlockForControlEvents:UIControlEventTouchUpInside withBlock:^(id sender) {
+        [self.viewModel.presentLoginControllerCmd execute:nil];
+    }];
+    
+    
     // Do any additional setup after loading the view.
 }
 
